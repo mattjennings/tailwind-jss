@@ -23,7 +23,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Lint
-        run: yarn lint
+        run: cd tailwind-jss && yarn lint
 
       - name: Test
         run: cd tailwind-jss && yarn test --ci --coverage --maxWorkers=2
