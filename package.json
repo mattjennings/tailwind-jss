@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-jss-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mattjennings/tailwind-jss",
+  "author": "Matt Jennings <mattjennings44@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "cd replay-jsx && yarn build"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.20.3"
+  }
+}

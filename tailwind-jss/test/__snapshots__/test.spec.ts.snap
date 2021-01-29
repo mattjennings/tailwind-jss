@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`translates nested properties to className 1`] = `
+"export function App() {
+  return /*#__PURE__*/React.createElement(\\"div\\", {
+    className: \\"space-undefined\\"
+  });
+}"
+`;
+
+exports[`translates to className 1`] = `
+"export function App() {
+  return /*#__PURE__*/React.createElement(\\"div\\", {
+    className: \\"bg-blue-500\\"
+  });
+}"
+`;
